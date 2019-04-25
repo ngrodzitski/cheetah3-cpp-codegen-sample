@@ -1,0 +1,10 @@
+{
+    "class_name": "message_header",
+    "minimal_size_in_bytes" : 16,
+    "fields":[
+        { "name": "msg_type",  "type": "std::uint32_t", "offset": 0 },
+        { "name": "version",   "type": "std::uint32_t", "offset": 4 },
+        { "name": "length",    "type": "std::uint32_t", "offset": 8 },
+        { "name": "checksum",  "type": "std::uint32_t", "offset": 12 }
+    ]
+}
